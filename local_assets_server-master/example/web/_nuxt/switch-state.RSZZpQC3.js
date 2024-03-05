@@ -1,0 +1,1 @@
+import{c as i,t as n}from"./entry.nbMAVAIE.js";function f(s,t,o){i.add({component:s?"BotStart":"BotStop",width:"450px",title:n("bot.t07"),props:{info:t},afterClose(p){t.status=p?s?3:-1:t.status,p&&(o==null||o())}})}export{f as s};

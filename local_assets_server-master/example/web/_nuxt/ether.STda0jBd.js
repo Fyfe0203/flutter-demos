@@ -1,0 +1,1 @@
+function o(r,i,f){if(r instanceof Uint8Array)return f?new Uint8Array(r):r;if(typeof r=="string"&&r.match(/^0x([0-9a-f][0-9a-f])*$/i)){const t=new Uint8Array((r.length-2)/2);let n=2;for(let e=0;e<t.length;e++)t[e]=parseInt(r.substring(n,n+2),16),n+=2;return t}throw new Error("Convert Uint8Array Error: "+r)}function s(r,i){return o(r,i,!1)}export{s as g};

@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #4886FF;
+    --text-main: #1D1D1D;
+    --text-main2: #261052;
+    --text-gray: #646F7E;
+    --text-gray2: #71639D;
+    --text-color1: #0FBE00;
+    --text-color2: #f73a3f;
+    --text-gray-sec: #A8ADB4;
+    --line-color: #DFDFDF;
+    --line2-color: #D9ECFF;
+    --line3-color: #EBF1FD;
+    --bg-main: #fff;
+    --skeleton-bg2: rgba(0, 0, 0, 0.15);
+    --bg-linear1: linear-gradient(90deg, #6FD2FA 0%, #D175FC 100%);
+    --bg-linear1-hover: linear-gradient(90deg, #92dfff 0%, #e2a3ff 100%);
+    --bg-linear2: linear-gradient(90deg, #f0eaf0 0%, #e4eff4 100%);
+    --bg-linear3: linear-gradient(90deg, #aeefff 14.39%, #c0dcff 41.15%, #d7cff9 69.24%, #eaceed 99.75%);
+}
+
+/* .dark:root {
+} */
+
+html,
+body {
+    color: var(--text-main) !important;
+    background-color: var(--bg-main);
+    font-size: 16px;
+}
+
+.bg-main {
+    background: var(--bg-main);
+}
+
+.text-main {
+    color: var(--text-main) !important;
+}
+.text-main2 {
+    color: var(--text-main2) !important;
+}
+
+.text-gray {
+    color: var(--text-gray) !important;
+}
+.text-gray2 {
+    color: var(--text-gray2) !important;
+}
+
+.text-green {
+    color: var(--text-color1) !important;
+}
+
+.text-red {
+    color: var(--text-color2) !important;
+}
+
+.text-gray-sec {
+    color: var(--text-gray-sec) !important;
+}
+
+.border-line {
+    border-color: var(--line-color) !important;
+}
+.border-line2 {
+    border-color: var(--line2-color) !important;
+}
+
+.border-line3 {
+    border-color: var(--line3-color) !important;
+}
+
+.bg-line {
+    background-color: var(--line-color) !important;
+}
+
+.bg-linear1 {
+    background: var(--bg-linear1) !important;
+    color: white;
+}
+.bg-linear2 {
+    background: var(--bg-linear2) !important;
+}
+.bg-linear3 {
+    background: var(--bg-linear3) !important;
+}
