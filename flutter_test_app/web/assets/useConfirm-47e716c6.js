@@ -1,0 +1,1 @@
+import{cA as a}from"./index-0207282d.js";function t(l,n,e){a.confirm(l,"提示",{dangerouslyUseHTMLString:!0,showClose:!1,closeOnClickModal:!1,closeOnPressEscape:!1,beforeClose:(r,o,s)=>{function f(){o.confirmButtonLoading=o.cancelButtonLoading=!1}r==="confirm"?(o.confirmButtonLoading=o.cancelButtonLoading=!0,n(s,f)):(s(),e&&e(f))}}).catch(()=>{})}export{t as u};

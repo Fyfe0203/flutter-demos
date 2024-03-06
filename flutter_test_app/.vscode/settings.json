@@ -1,0 +1,27 @@
+{
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": true,
+		"editor.suggest.snippetsPreventQuickSuggestions": true,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": "off",
+		"editor.defaultFormatter": "Dart-Code.dart-code",
+		"editor.tabSize": 4
+	},
+	"dart.openDevTools": "flutter",
+	"dart.lineLength": 200,
+	"dart.debugExternalPackageLibraries": true,
+	"dart.debugSdkLibraries": false,
+	"files.associations": {
+		"*.dart": "dart"
+	},
+}
