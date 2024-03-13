@@ -1,1 +1,0 @@
-import o from"./Empty.YJn_-HYo.js";import{_ as c}from"./entry.nbMAVAIE.js";import{F as n,G as _,W as r}from"./swiper-vue.o0IHd9hR.js";const s={},a={class:"flex-center p-8 text-gray2 min-h-[60vh]"};function m(t,f){const e=o;return n(),_("div",a,[r(e,{text:t.$t("account.t49")},null,8,["text"])])}const u=c(s,[["render",m]]);export{u as default};

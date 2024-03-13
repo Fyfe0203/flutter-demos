@@ -1,1 +1,0 @@
-import{_ as t}from"./entry.nbMAVAIE.js";import{F as s,G as o,H as e}from"./swiper-vue.o0IHd9hR.js";const c={},_={class:"flex-center text-main"},n=e("div",{class:"sm:flex-1"},null,-1),r=e("div",{class:"text-gray-sec text-xs"},"Copyright @ 2024",-1),a=[n,r];function i(d,l){return s(),o("div",_,a)}const m=t(c,[["render",i]]);export{m as default};

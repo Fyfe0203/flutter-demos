@@ -1,1 +1,0 @@
-import o from"./Empty.YJn_-HYo.js";import{_ as c}from"./entry.nbMAVAIE.js";import{F as n,G as r,W as s}from"./swiper-vue.o0IHd9hR.js";const a={};function _(t,m){const e=o;return n(),r("div",null,[s(e,{class:"py-10",text:t.$t("account.t49")},null,8,["text"])])}const i=c(a,[["render",_]]);export{i as default};

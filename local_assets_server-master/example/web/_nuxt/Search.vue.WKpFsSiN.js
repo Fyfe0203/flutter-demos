@@ -1,0 +1,1 @@
+import{E as r}from"./el-input.2YP29THG.js";import"./entry.iYjkhHK1.js";import{d as e,F as t,X as s,u as a,W as c,ao as p}from"./swiper-vue.o0IHd9hR.js";const x=e({__name:"Search",setup(i){const n=e(()=>()=>c(p("nuxt-icon"),{name:"search",class:"text-sm"},null));return(m,u)=>{const o=r;return t(),s(o,{"prefix-icon":a(n)},null,8,["prefix-icon"])}}});export{x as _};

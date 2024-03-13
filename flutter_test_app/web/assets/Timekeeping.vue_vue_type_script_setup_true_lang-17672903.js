@@ -1,0 +1,1 @@
+import{u as n}from"./useDate-0bf7f9c9.js";import{d as o,o as s,c as t,C as m,g as r}from"./index-cba2b4c0.js";const l=o({__name:"Timekeeping",props:{beginTime:{default:0},format:{default:"YYYY-MM-DD HH:mm:ss"}},setup(i){const a=n;return(e,p)=>(s(),t("span",null,m(e.beginTime?r(a).format(e.beginTime,e.format):""),1))}});export{l as _};
